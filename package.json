@@ -1,0 +1,25 @@
+{
+  "name": "scroll-driven-hero",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "gsap": "^3.13.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "gh-pages": "^6.3.0",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17"
+  }
+}
